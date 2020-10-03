@@ -2,6 +2,6 @@ language: python
 python:
 - 3.8.2
 before_install:
-- pip install -r requirements.txt
+- pip install -f requirements.txt
 script:
-- pytest com/lozano/test/
+- pytest com/Lozano/test/
